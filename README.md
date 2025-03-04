@@ -117,7 +117,7 @@ This **Learning Management System (LMS)** is a full-stack web application that a
 - **Node.js & Express** – API and server logic
 - **MongoDB & Mongoose** – Database management
 - **Cloudinary & Multer** – File uploads (videos, images)
-- **JWT Authentication** – Secure login and access control
+- **Clerk** – Secure login and access control
 
 ## ⚙️ Installation & Setup
 ### Prerequisites
@@ -146,7 +146,6 @@ npm install
 Create a `.env` file inside the **server** directory with the following:
 ```env
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
