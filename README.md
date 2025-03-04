@@ -29,7 +29,7 @@ This **Learning Management System (LMS)** is a full-stack web application that a
 - **Node.js & Express** – API and server logic
 - **MongoDB & Mongoose** – Database management
 - **Cloudinary & Multer** – File uploads (videos, images)
-- **JWT Authentication** – Secure login and access control
+- **Clerk** – Secure login and access control
 
 ## ⚙️ Installation & Setup
 ### Prerequisites
